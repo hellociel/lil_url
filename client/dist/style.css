@@ -1,0 +1,134 @@
+* {
+  justify-content: center;
+  text-align: center;
+  background-color: #f6f1d1;
+}
+
+div {
+  border-radius: 0.4em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding-top: 20px;
+}
+
+#container {
+  margin: auto;
+  width: 40%;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 3px 5px 5px #89a17c;
+  border: 15px solid #cfd7c7;
+}
+
+#title {
+  font-size: 42px;
+  color: #40798c;
+  padding: 10px;
+  background-color: white;
+}
+
+#generator {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 30px;
+  height: 650px;
+  color: white;
+  background-color: white;
+  background-color: white;
+  padding: 30px;
+}
+
+.form {
+  width: 90%;
+  height: 250px;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  background-color: white;
+}
+
+form {
+  background-color: white;
+}
+
+label {
+  background-color: white;
+  color: #70a9a1;
+}
+
+#input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  height: 180px;
+  color: black;
+  background-color: white;
+  border-radius: 0.4em;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #70a9a1;
+  resize: none;
+}
+
+#shortUrl {
+  height: 50px;
+  width: 95%;
+  border: 1px solid #70a9a1;
+  background-color: white;
+  border-radius: 0.4em;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 25px;
+  resize: none;
+  color: tomato;
+}
+
+button {
+  font-weight: bold;
+  border-radius: 0.4em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.generateButton {
+  border: 5px solid #40798c;
+  background-color: #40798c;
+  color: white;
+  height: 100px;
+  width: 40%;
+  font-size: 20px;
+}
+
+.generateButton:hover {
+  background-color: white;
+  border: 5px solid #40798c;
+  color: #40798c;
+}
+
+.copyButton {
+  background-color: white;
+  border: 5px solid #ff9e78;
+  color: #ff9e78;
+  font-size: 18px;
+  height: 80px;
+  width: 40%;
+}
+.copyButton:hover {
+  border: 5px solid#ff9e78;
+
+  color: white;
+  background-color: #ff9e78;
+}
+
+.copyButton:active {
+  border: 5px solid#ff9e78;
+
+  color: white;
+  background-color: #ff9e78;
+}
